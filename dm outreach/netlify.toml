@@ -1,0 +1,15 @@
+# PLUGDISTRICT Catalog — Netlify config
+# Tells Netlify where to find static files and serverless functions
+
+[build]
+  publish = "."
+  functions = "netlify/functions"
+
+[functions]
+  node_bundler = "esbuild"
+
+# Optional: make /catalog the default page
+# [[redirects]]
+#   from = "/"
+#   to = "/catalog.html"
+#   status = 200
