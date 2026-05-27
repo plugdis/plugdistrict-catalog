@@ -1,0 +1,9 @@
+{
+  "name": "plugdistrict-catalog",
+  "version": "1.0.0",
+  "description": "PLUGDISTRICT wholesale catalog with Twilio SMS auto-response via Netlify Functions",
+  "private": true,
+  "dependencies": {
+    "twilio": "^5.3.0"
+  }
+}
